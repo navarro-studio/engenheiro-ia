@@ -3,6 +3,7 @@ function validar () {
 	var nome = contato.nome.value;
 	var tel = contato.tel.value;
 	var email = contato.email.value;
+	var avaliar = contato.avaliar.value;
 	
 	if (nome == "") {
 		alert('Por favor, preencha o campo com seu nome!');
@@ -36,6 +37,12 @@ function validar () {
 			contato.tel.focus();
 			return false;
 			}
+
+	if (avaliar == "") {
+		alert('Por favor, avalie nosso site!');
+		contato.avaliar.focus();
+		return false;
+		}
 	
 	return true;
 				}
