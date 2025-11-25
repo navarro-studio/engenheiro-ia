@@ -38,7 +38,7 @@ function validar () {
 			return false;
 			}
 
-	if (avaliar == "") {
+	if (avaliar === "") {
 		alert('Por favor, avalie nosso site!');
 		contato.avaliar.focus();
 		return false;
@@ -53,4 +53,5 @@ function validar () {
 					}
 					return false;
 				}
+
 /* Fim do Cadastro */
